@@ -1,0 +1,20 @@
+.exhibit {
+    background-color: #3D2645;
+    color: #F0EFF4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .exhibit:hover {
+    transform: scale(1.02);
+  }
+  
+  .content {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
