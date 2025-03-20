@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Exhibit from "./Exhibit";
 import IPAddress from "./IPAddress";
+import Latency from "./Latency";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
         </Exhibit>
         <Exhibit title="Public IPv6 Address">
           <IPAddress version="IPv6" />
+        </Exhibit>
+        <Exhibit title="Network Latency">
+          <Latency />
         </Exhibit>
       </div>
     </div>
